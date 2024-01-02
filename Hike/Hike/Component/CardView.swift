@@ -8,6 +8,32 @@
 import SwiftUI
 
 struct CardView: View {
+  
+  // MARK: -  Properties
+  
+  @State
+  private var imageNumber = 1
+  @State
+  private var randomNumber = 1
+  
+  // MARK: -  Functions
+  
+  private func randomImage() {
+    print("--- Button Was Pressed ---")
+    print("Status: Old Image Number = \(imageNumber)")
+    
+    repeat {
+      randomNumber = .random(in: 1...5)
+      print("Action: RandomNumber Generated = \(randomNumber)")
+    } while randomNumber == imageNumber
+              
+    imageNumber = randomNumber
+    
+    print("Result: New Image Number = \(imageNumber)")
+    print("--- The End ---")
+    print("\n") 
+  }
+  
   var body: some View {
     // MARK: - Card
     
@@ -59,12 +85,37 @@ struct CardView: View {
             )
             .frame(width: 256.0, height: 256.0)
           
-          Image(.image1)
+          Image("image-\(imageNumber)")
             .resizable()
             .scaledToFit()
+            .animation(.default, value: imageNumber)
         }
         
         // MARK: - Footer
+        
+        Button {
+          // Action: Generate a random number
+          print("The Button was pressed.")
+          randomImage()
+        } label: {
+          Text("Explore More")
+            .font(.title2)
+            .fontWeight(.heavy)
+            .foregroundStyle(
+              LinearGradient(
+                colors: [.colorGreenLight, .colorGreenMedium],
+                startPoint: .top,
+                endPoint: .bottom
+              )
+            )
+            .shadow(
+              color: .black.opacity(0.25),
+              radius: 0.25,
+              x: 1,
+              y: 2
+            )
+        }
+        .buttonStyle(GradientButtonStyle())
         
       }
     } //: Card
