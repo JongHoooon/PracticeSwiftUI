@@ -14,6 +14,7 @@
 		EDE567952B43FA0F00B04C61 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE567942B43FA0F00B04C61 /* CardView.swift */; };
 		EDE567982B43FB0000B04C61 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE567972B43FB0000B04C61 /* CustomBackgroundView.swift */; };
 		EDE5679B2B43FFCB00B04C61 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE5679A2B43FFCB00B04C61 /* Color+Extension.swift */; };
+		EDE5679D2B44050700B04C61 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE5679C2B44050700B04C61 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		EDE567942B43FA0F00B04C61 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EDE567972B43FB0000B04C61 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		EDE5679A2B43FFCB00B04C61 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		EDE5679C2B44050700B04C61 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				EDE567942B43FA0F00B04C61 /* CardView.swift */,
+				EDE5679C2B44050700B04C61 /* CustomButtonView.swift */,
 				EDE567972B43FB0000B04C61 /* CustomBackgroundView.swift */,
 			);
 			path = Component;
@@ -167,6 +170,7 @@
 				EDE567892B41A3B900B04C61 /* ContentView.swift in Sources */,
 				EDE5679B2B43FFCB00B04C61 /* Color+Extension.swift in Sources */,
 				EDE567952B43FA0F00B04C61 /* CardView.swift in Sources */,
+				EDE5679D2B44050700B04C61 /* CustomButtonView.swift in Sources */,
 				EDE567872B41A3B900B04C61 /* HikeApp.swift in Sources */,
 				EDE567982B43FB0000B04C61 /* CustomBackgroundView.swift in Sources */,
 			);
