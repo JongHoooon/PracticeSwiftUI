@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDAC54AE2B54189D00167113 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC54AD2B54189D00167113 /* SettingsView.swift */; };
 		EDE567872B41A3B900B04C61 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE567862B41A3B900B04C61 /* HikeApp.swift */; };
 		EDE567892B41A3B900B04C61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE567882B41A3B900B04C61 /* ContentView.swift */; };
 		EDE5678B2B41A3BA00B04C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE5678A2B41A3BA00B04C61 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDAC54AD2B54189D00167113 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EDE567832B41A3B900B04C61 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE567862B41A3B900B04C61 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		EDE567882B41A3B900B04C61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EDAC54AC2B54186800167113 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EDE567882B41A3B900B04C61 /* ContentView.swift */,
+				EDAC54AD2B54189D00167113 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		EDE5677A2B41A3B900B04C61 = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +78,10 @@
 		EDE567852B41A3B900B04C61 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				EDE567862B41A3B900B04C61 /* HikeApp.swift */,
 				EDE567962B43FAE100B04C61 /* Component */,
 				EDE567992B43FFA600B04C61 /* Utility */,
-				EDE567862B41A3B900B04C61 /* HikeApp.swift */,
-				EDE567882B41A3B900B04C61 /* ContentView.swift */,
+				EDAC54AC2B54186800167113 /* Screen */,
 				EDE5678A2B41A3BA00B04C61 /* Assets.xcassets */,
 				EDE5678C2B41A3BA00B04C61 /* Preview Content */,
 			);
@@ -181,6 +192,7 @@
 				EDE5679B2B43FFCB00B04C61 /* Color+Extension.swift in Sources */,
 				EDE567952B43FA0F00B04C61 /* CardView.swift in Sources */,
 				EDE5679D2B44050700B04C61 /* CustomButtonView.swift in Sources */,
+				EDAC54AE2B54189D00167113 /* SettingsView.swift in Sources */,
 				EDE5679F2B44338C00B04C61 /* GradientButtonStyle.swift in Sources */,
 				EDE567A32B4440C700B04C61 /* MotionAnimationView.swift in Sources */,
 				EDE567872B41A3B900B04C61 /* HikeApp.swift in Sources */,
