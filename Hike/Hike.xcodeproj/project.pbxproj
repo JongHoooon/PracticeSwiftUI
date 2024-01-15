@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EDAC54AE2B54189D00167113 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC54AD2B54189D00167113 /* SettingsView.swift */; };
+		EDAC54B02B557E0300167113 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAC54AF2B557E0300167113 /* CustomListRowView.swift */; };
 		EDE567872B41A3B900B04C61 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE567862B41A3B900B04C61 /* HikeApp.swift */; };
 		EDE567892B41A3B900B04C61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE567882B41A3B900B04C61 /* ContentView.swift */; };
 		EDE5678B2B41A3BA00B04C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE5678A2B41A3BA00B04C61 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		EDAC54AD2B54189D00167113 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EDAC54AF2B557E0300167113 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		EDE567832B41A3B900B04C61 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE567862B41A3B900B04C61 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		EDE567882B41A3B900B04C61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				EDE567A02B443EA200B04C61 /* CustomCircleView.swift */,
 				EDE5679C2B44050700B04C61 /* CustomButtonView.swift */,
 				EDE567972B43FB0000B04C61 /* CustomBackgroundView.swift */,
+				EDAC54AF2B557E0300167113 /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				EDE567892B41A3B900B04C61 /* ContentView.swift in Sources */,
 				EDE567A12B443EA200B04C61 /* CustomCircleView.swift in Sources */,
+				EDAC54B02B557E0300167113 /* CustomListRowView.swift in Sources */,
 				EDE5679B2B43FFCB00B04C61 /* Color+Extension.swift in Sources */,
 				EDE567952B43FA0F00B04C61 /* CardView.swift in Sources */,
 				EDE5679D2B44050700B04C61 /* CustomButtonView.swift in Sources */,

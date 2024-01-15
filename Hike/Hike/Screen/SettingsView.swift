@@ -69,9 +69,70 @@ struct SettingsView: View {
       
       // MARK: - SECTION: ABOUT
       Section {
+        // 1. Basic Labeld Content
+        // LabeledContent("Application", value: "Hike")
+        
+        // 2.Advanced Labeled Content
+        CustomListRowView(
+          rowLabel: "Application",
+          rowIcon: "apps.iphone",
+          rowContent: "HIKE",
+          rowTintColor: .blue
+        )
+        
+        CustomListRowView(
+          rowLabel: "Compatiblity",
+          rowIcon: "info.circle",
+          rowContent: "iOS",
+          rowTintColor: .red
+        )
+        
+        CustomListRowView(
+          rowLabel: "Technology",
+          rowIcon: "swift",
+          rowContent: "Swift",
+          rowTintColor: .orange
+        )
+        
+        CustomListRowView(
+          rowLabel: "Version",
+          rowIcon: "gear",
+          rowContent: "1.0",
+          rowTintColor: .purple
+        )
+        
+        CustomListRowView(
+          rowLabel: "Developer",
+          rowIcon: "elipsis.curlybraces",
+          rowContent: "John Doe",
+          rowTintColor: .mint
+        )
+        
+        CustomListRowView(
+          rowLabel: "Designer",
+          rowIcon: "paintpalette",
+          rowContent: "Robert Petras",
+          rowTintColor: .pink
+        )
+        
+        CustomListRowView(
+          rowLabel: "Website",
+          rowIcon: "globe",
+          rowTintColor: .indigo,
+          rowLinkLabel: "Credo Acedemy",
+          rowLinkDestination: "https://credo.academy"
+        )
+        
+      } header: {
         Text("List Row")
-      }
-      
+      } footer: {
+        HStack {
+          Spacer()
+          Text("Copyright © All right reserved.")
+          Spacer()
+        }
+        .padding(.vertical, 8.0)
+      } // Section
     } // List
   }
 }
