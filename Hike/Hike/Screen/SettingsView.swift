@@ -68,6 +68,10 @@ struct SettingsView: View {
       
       
       // MARK: - SECTION: ABOUT
+      Section {
+        Text("List Row")
+      }
+      
     } // List
   }
 }
